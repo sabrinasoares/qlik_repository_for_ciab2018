@@ -1,0 +1,23 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "ed12be83-c263-4b54-82a8-47a5893dd1e7",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": "#3498db",
+      "sheetTitleGradientColor": "#3498db",
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {
+          "qUrl": "/appcontent/a830cbde-f6f8-4273-90b1-9c8c0e4bfc26/Logos/CIAB 2018.PNG"
+        }
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "ciab 2018"
+    },
+    "qChildren": []
+  }
+]

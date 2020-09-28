@@ -1,0 +1,213 @@
+[
+  {
+    "qInfo": {
+      "qId": "0ed7fff4-f5ed-4f3d-a827-a1bef23a13a3",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Spread",
+      "qDef": "num(sum([Valor Principal IOF]*[Spread])/sum([Valor Principal IOF]),'0,0%')",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Spread",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "618a94f8-b7c3-41c4-82ac-fcb511ac8eb9",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Valor Financiado Veiculos",
+      "qDef": "Sum({<Subsegmento={'Veículos'}>} [Valor Principal IOF])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#16a085",
+          "index": 1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Valor Financiado Veiculos",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "8c379cb2-ff47-4b2e-856b-930c0fd464fb",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Valor Financiado Meta",
+      "qDef": "Sum([Valor Principal IOF])+\n(Sum([Valor Principal IOF])*if(rand()<0.5,1,-1)*rand()/1000)\n\n// Fake meta",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#16a085",
+          "index": 1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Valor Financiado Meta",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PYbVcYS",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Contratos",
+      "qDef": "Count([Número Contrato])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#d35400",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Contratos",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "QFDjpbA",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Valor Financiado",
+      "qDef": "Sum([Valor Principal IOF])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#16a085",
+          "index": 1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Valor Financiado",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YSHCzp",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Prazo Médio (M)",
+      "qDef": "sum([Valor Principal IOF]*Prazo)/sum([Valor Principal IOF])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#95a5a6",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Prazo Médio (M)",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Taxa",
+      "qDef": "num(sum([Valor Principal IOF]*[Taxa Mês])/sum([Valor Principal IOF]),'0,0%')",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#95a5a6",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Taxa",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "c6159e66-a1e7-402b-828c-1d0fc7117831",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ticket Médio",
+      "qDef": "Avg([Valor Principal IOF])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#34495e",
+          "index": 4
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Ticket Médio",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ecba1e12-39d5-45ce-b8bf-c1793528a70f",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Valor Financiado Cinza",
+      "qDef": "Sum([Valor Principal IOF])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#ecf0f1",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Valor Financiado Cinza",
+      "description": "",
+      "tags": []
+    }
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 37,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$system",
+      "$text"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 15,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 6,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 9,
+    "qTags": [
+      "$hidden",
+      "$system",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 9,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$system",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "BRASIL.Area",
+    "qCardinal": 27,
+    "qTags": [
+      "$wgs84",
+      "$geomultipolygon",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "BRASIL.shp/Features"
+    ]
+  },
+  {
+    "qName": "BRASIL.Name-Estado",
+    "qCardinal": 27,
+    "qTags": [
+      "$geoname",
+      "$key",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia",
+      "BRASIL.shp/Features"
+    ]
+  },
+  {
+    "qName": "Bandeira Loja",
+    "qCardinal": 34,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Loja"
+    ]
+  },
+  {
+    "qName": "Cidade",
+    "qCardinal": 67,
+    "qTags": [
+      "$geoname",
+      "$text",
+      "$relates_Dim_Geografia.Cidade_GeoInfo"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "Conglomerado Comercial",
+    "qCardinal": 0,
+    "qTags": [],
+    "qSrcTables": [
+      "Dim_Loja"
+    ]
+  },
+  {
+    "qName": "Contratos.cod_TabelaFin",
+    "qCardinal": 1127,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Data",
+    "qCardinal": 95,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Desc_Produto",
+    "qCardinal": 6,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Dim_Produto"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "Dim_Geografia.Cidade_GeoInfo",
+    "qCardinal": 62,
+    "qTags": [
+      "$geopoint",
+      "$hidden",
+      "$text",
+      "$ascii",
+      "$relates_Cidade"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "Item Financiado",
+    "qCardinal": 50,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_ObjFinanciado"
+    ]
+  },
+  {
+    "qName": "Latitude",
+    "qCardinal": 106,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "Longitude",
+    "qCardinal": 106,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "Longitude_Latitude",
+    "qCardinal": 106,
+    "qTags": [
+      "$geopoint",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "MesCompetencia",
+    "qCardinal": 75,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Fluxo"
+    ]
+  },
+  {
+    "qName": "Nome Filial",
+    "qCardinal": 106,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "Nome Loja",
+    "qCardinal": 14334,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Loja"
+    ]
+  },
+  {
+    "qName": "Nome Setor Loja",
+    "qCardinal": 39,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Segmentacao"
+    ]
+  },
+  {
+    "qName": "Nome_Operador",
+    "qCardinal": 1563,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Operador"
+    ]
+  },
+  {
+    "qName": "Número Contrato",
+    "qCardinal": 213325,
+    "qTags": [
+      "$key",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Contratos",
+      "Fluxo"
+    ]
+  },
+  {
+    "qName": "Prazo",
+    "qCardinal": 41,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Prazo (Bucketed)",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Região",
+    "qCardinal": 5,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  },
+  {
+    "qName": "Score",
+    "qCardinal": 8,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Segmento",
+    "qCardinal": 4,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Segmentacao"
+    ]
+  },
+  {
+    "qName": "Spread",
+    "qCardinal": 714,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "Subsegmento",
+    "qCardinal": 19,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Dim_Segmentacao"
+    ]
+  },
+  {
+    "qName": "Taxa Mês",
+    "qCardinal": 632,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qName": "UF Loja",
+    "qCardinal": 27,
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Dim_Loja"
+    ]
+  },
+  {
+    "qName": "Valor Parcela",
+    "qCardinal": 191883,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fluxo"
+    ]
+  },
+  {
+    "qName": "Valor Principal IOF",
+    "qCardinal": 169671,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Contratos"
+    ]
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_Filial",
+    "qCardinal": 106,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_Obj",
+    "qCardinal": 50,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_Operador",
+    "qCardinal": 1564,
+    "qTags": [
+      "$key",
+      "$hidden"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_Produto",
+    "qCardinal": 6,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_loja",
+    "qCardinal": 14335,
+    "qTags": [
+      "$key",
+      "$hidden"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qName": "cod_setor_loja",
+    "qCardinal": 45,
+    "qTags": [
+      "$key",
+      "$hidden",
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "Área Comercial",
+    "qCardinal": 3,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Dim_Geografia"
+    ]
+  }
+]

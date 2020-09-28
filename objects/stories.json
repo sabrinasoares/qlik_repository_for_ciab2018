@@ -1,0 +1,959 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "bcf00301-714b-49d3-9279-2768d1a419cd",
+        "qType": "story"
+      },
+      "qMetaDef": {
+        "title": "Apresentação",
+        "description": ""
+      },
+      "rank": 0,
+      "thumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "qChildListDef": {
+        "qData": {
+          "title": "/title",
+          "rank": "/rank"
+        }
+      }
+    },
+    "qChildren": [
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "BpvVE",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": -1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "ksPXsFx",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "0.00000%",
+                "left": "0.00000%",
+                "width": "100.00000%",
+                "height": "82.49883%",
+                "z-index": 4,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/a830cbde-f6f8-4273-90b1-9c8c0e4bfc26/qlik-analytics-platform.jpg"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "tA",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 1,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "mgjp",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "97629f42-be3b-4655-9ff5-a9057cad6837",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "95cf52fd-5064-4bad-8bf9-cfe7d1ae3848",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2018-06-14T18:01:07.132Z",
+                "title": "",
+                "sheetId": "97629f42-be3b-4655-9ff5-a9057cad6837",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43265.62577546296,
+                "qVariableItems": [],
+                "qPatches": []
+              },
+              "qClassicBookmark": {
+                "qUtcModifyTime": 0,
+                "qUtcRecallTime": 0,
+                "qRecallCount": 0,
+                "qFieldItems": [],
+                "qVariableItems": [],
+                "qObjects": [],
+                "qGroups": [],
+                "qShow": {
+                  "qAlways": true,
+                  "qExpression": {}
+                },
+                "qApplyInputFieldValues": true,
+                "qInputFieldItems": [],
+                "qObjectsLayout": [],
+                "qIncludeSelectionState": true,
+                "qAlternateStateData": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "TavhzzQ",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 2,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "mNLpT",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "9eb9e302-08d2-48ac-8af0-47f251406be3",
+              "ratio": false,
+              "position": {
+                "top": "1%",
+                "left": "1.5%",
+                "width": "94%",
+                "height": "98%",
+                "z-index": 4
+              },
+              "visualization": "sheet"
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "f282fde2-0af0-40cb-bdb9-3a8310309b20",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "",
+                  "description": ""
+                },
+                "creationDate": "2018-06-14T18:02:32.967Z",
+                "title": "",
+                "sheetId": "9eb9e302-08d2-48ac-8af0-47f251406be3",
+                "selectionFields": []
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": []
+                  }
+                ],
+                "qUtcModifyTime": 43265.626759259256,
+                "qVariableItems": [],
+                "qPatches": []
+              },
+              "qClassicBookmark": {
+                "qUtcModifyTime": 0,
+                "qUtcRecallTime": 0,
+                "qRecallCount": 0,
+                "qFieldItems": [],
+                "qVariableItems": [],
+                "qObjects": [],
+                "qGroups": [],
+                "qShow": {
+                  "qAlways": true,
+                  "qExpression": {}
+                },
+                "qApplyInputFieldValues": true,
+                "qInputFieldItems": [],
+                "qObjectsLayout": [],
+                "qIncludeSelectionState": true,
+                "qAlternateStateData": []
+              }
+            }
+          }
+        ]
+      },
+      {
+        "qProperty": {
+          "qInfo": {
+            "qId": "EFZrr",
+            "qType": "slide"
+          },
+          "qMetaDef": {},
+          "rank": 3,
+          "qChildListDef": {
+            "qData": {
+              "title": "/title",
+              "sheetId": "/sheetId",
+              "ratio": "/ratio",
+              "position": "/position",
+              "dataPath": "/dataPath",
+              "srcPath": "/srcPath",
+              "visualization": "/visualization",
+              "visualizationType": "/visualizationType",
+              "style": "/style"
+            }
+          }
+        },
+        "qChildren": [
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "gtNEepG",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "14.81%",
+                "left": "14.58%",
+                "width": "41.67%",
+                "height": "37.04%",
+                "z-index": 4
+              },
+              "visualization": "snapshot",
+              "visualizationType": "barchart",
+              "style": {
+                "id": "28d03fb3-1afa-4af4-90df-cbda13d05c71"
+              }
+            },
+            "qChildren": [],
+            "qEmbeddedSnapshotRef": {
+              "qProperties": {
+                "qInfo": {
+                  "qId": "b9545c32-b2bf-4922-a988-501e972b79c6",
+                  "qType": "embeddedsnapshot"
+                },
+                "qMetaDef": {
+                  "title": "Contratos por Score",
+                  "description": "",
+                  "annotation": ""
+                },
+                "creationDate": "2018-08-13T13:44:50.754Z",
+                "qSelectionInfo": {},
+                "qHyperCube": {
+                  "qSize": {
+                    "qcx": 2,
+                    "qcy": 8
+                  },
+                  "qDimensionInfo": [
+                    {
+                      "qFallbackTitle": "Score",
+                      "qApprMaxGlyphCount": 1,
+                      "qCardinal": 8,
+                      "qSortIndicator": "A",
+                      "qGroupFallbackTitles": [
+                        "Score"
+                      ],
+                      "qGroupPos": 0,
+                      "qStateCounts": {
+                        "qLocked": 0,
+                        "qSelected": 0,
+                        "qOption": 8,
+                        "qDeselected": 0,
+                        "qAlternative": 0,
+                        "qExcluded": 0,
+                        "qSelectedExcluded": 0,
+                        "qLockedExcluded": 0
+                      },
+                      "qTags": [
+                        "$text",
+                        "$ascii"
+                      ],
+                      "qDimensionType": "D",
+                      "qGrouping": "N",
+                      "qNumFormat": {
+                        "qType": "U",
+                        "qnDec": 0,
+                        "qUseThou": 0
+                      },
+                      "qIsAutoFormat": true,
+                      "qGroupFieldDefs": [
+                        "Score"
+                      ],
+                      "qMin": "NaN",
+                      "qMax": "NaN",
+                      "qAttrExprInfo": [
+                        {
+                          "qMin": 33948,
+                          "qMax": 67323,
+                          "qFallbackTitle": "Contratos",
+                          "qMinText": "33948",
+                          "qMaxText": "67323",
+                          "qNumFormat": {
+                            "qType": "U",
+                            "qnDec": 10,
+                            "qUseThou": 0
+                          },
+                          "id": "colorByAlternative",
+                          "matchMeasure": 0,
+                          "colorMapRef": "PYbVcYS"
+                        }
+                      ],
+                      "qAttrDimInfo": [],
+                      "qCardinalities": {
+                        "qCardinal": 8,
+                        "qHypercubeCardinal": 8,
+                        "qAllValuesCardinal": -1
+                      },
+                      "autoSort": true,
+                      "cId": "nDkgwY",
+                      "othersLabel": "Others"
+                    }
+                  ],
+                  "qMeasureInfo": [
+                    {
+                      "qFallbackTitle": "Contratos",
+                      "qApprMaxGlyphCount": 6,
+                      "qCardinal": 0,
+                      "qSortIndicator": "D",
+                      "qNumFormat": {
+                        "qType": "I",
+                        "qnDec": 0,
+                        "qUseThou": 1,
+                        "qFmt": "###0",
+                        "qDec": ","
+                      },
+                      "qMin": 33948,
+                      "qMax": 67323,
+                      "qIsAutoFormat": true,
+                      "qAttrExprInfo": [],
+                      "qAttrDimInfo": [],
+                      "qTrendLines": [],
+                      "coloring": {
+                        "baseColor": {
+                          "color": "#d35400",
+                          "index": -1
+                        }
+                      },
+                      "autoSort": true,
+                      "cId": "KKyLpsh",
+                      "numFormatFromTemplate": true
+                    }
+                  ],
+                  "qEffectiveInterColumnSortOrder": [
+                    0,
+                    1
+                  ],
+                  "qGrandTotalRow": [
+                    {
+                      "qText": "428287",
+                      "qNum": 428287,
+                      "qElemNumber": -1,
+                      "qState": "X",
+                      "qIsTotalCell": true
+                    }
+                  ],
+                  "qDataPages": [
+                    {
+                      "qMatrix": [
+                        [
+                          {
+                            "qText": "A",
+                            "qNum": "NaN",
+                            "qElemNumber": 1,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "33948",
+                                  "qNum": 33948
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "33948",
+                            "qNum": 33948,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "B",
+                            "qNum": "NaN",
+                            "qElemNumber": 2,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "67323",
+                                  "qNum": 67323
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "67323",
+                            "qNum": 67323,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "C",
+                            "qNum": "NaN",
+                            "qElemNumber": 0,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "56879",
+                                  "qNum": 56879
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "56879",
+                            "qNum": 56879,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "D",
+                            "qNum": "NaN",
+                            "qElemNumber": 7,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "53643",
+                                  "qNum": 53643
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "53643",
+                            "qNum": 53643,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "E",
+                            "qNum": "NaN",
+                            "qElemNumber": 4,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "53632",
+                                  "qNum": 53632
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "53632",
+                            "qNum": 53632,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "F",
+                            "qNum": "NaN",
+                            "qElemNumber": 6,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "60975",
+                                  "qNum": 60975
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "60975",
+                            "qNum": 60975,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "G",
+                            "qNum": "NaN",
+                            "qElemNumber": 5,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "66064",
+                                  "qNum": 66064
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "66064",
+                            "qNum": 66064,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ],
+                        [
+                          {
+                            "qText": "H",
+                            "qNum": "NaN",
+                            "qElemNumber": 3,
+                            "qState": "O",
+                            "qAttrExps": {
+                              "qValues": [
+                                {
+                                  "qText": "35823",
+                                  "qNum": 35823
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "qText": "35823",
+                            "qNum": 35823,
+                            "qElemNumber": 0,
+                            "qState": "L"
+                          }
+                        ]
+                      ],
+                      "qTails": [
+                        {
+                          "qUp": 0,
+                          "qDown": 0
+                        }
+                      ],
+                      "qArea": {
+                        "qLeft": 0,
+                        "qTop": 0,
+                        "qWidth": 2,
+                        "qHeight": 8
+                      }
+                    }
+                  ],
+                  "qPivotDataPages": [],
+                  "qStackedDataPages": [],
+                  "qMode": "S",
+                  "qNoOfLeftDims": -1,
+                  "qTreeNodesOnDim": [],
+                  "qColumnOrder": []
+                },
+                "refLine": {
+                  "refLines": []
+                },
+                "showTitles": true,
+                "title": "Contratos por Score",
+                "subtitle": "",
+                "footnote": "",
+                "showDetails": false,
+                "barGrouping": {
+                  "grouping": "grouped"
+                },
+                "orientation": "vertical",
+                "scrollStartPos": 0,
+                "gridLine": {
+                  "auto": false,
+                  "spacing": 0
+                },
+                "dataPoint": {
+                  "showLabels": true
+                },
+                "color": {
+                  "auto": false,
+                  "mode": "byMeasure",
+                  "useBaseColors": "off",
+                  "paletteColor": {
+                    "index": 1
+                  },
+                  "useDimColVal": true,
+                  "persistent": false,
+                  "expressionIsColor": true,
+                  "expressionLabel": "",
+                  "measureScheme": "wfxj2a",
+                  "reverseScheme": false,
+                  "dimensionScheme": "12",
+                  "autoMinMax": true,
+                  "measureMin": 0,
+                  "measureMax": 10,
+                  "byMeasureDef": {
+                    "label": "PYbVcYS",
+                    "key": "PYbVcYS",
+                    "type": "libraryItem"
+                  },
+                  "altLabel": "PYbVcYS"
+                },
+                "legend": {
+                  "show": true,
+                  "dock": "auto",
+                  "showTitle": true
+                },
+                "dimensionAxis": {
+                  "continuousAuto": false,
+                  "show": "all",
+                  "label": "auto",
+                  "dock": "near"
+                },
+                "preferContinuousAxis": true,
+                "measureAxis": {
+                  "show": "none",
+                  "dock": "near",
+                  "spacing": 1,
+                  "autoMinMax": true,
+                  "minMax": "min",
+                  "min": 0,
+                  "max": 10
+                },
+                "visualization": "barchart",
+                "snapshotData": {
+                  "object": {
+                    "size": {
+                      "w": 442,
+                      "h": 218
+                    }
+                  },
+                  "rtl": false,
+                  "content": {
+                    "chartData": {
+                      "legendScrollOffset": 0,
+                      "scrollOffset": 0,
+                      "discreteSpacing": 48,
+                      "axisInnerOffset": 0,
+                      "hasMiniChart": false,
+                      "viewRange": 8
+                    },
+                    "size": {
+                      "w": 442,
+                      "h": 190
+                    },
+                    "components": {
+                      "grid": {
+                        "visible": true,
+                        "dock": "center",
+                        "size": {
+                          "w": 438,
+                          "h": 164
+                        }
+                      },
+                      "colorLegend": {
+                        "visible": false,
+                        "dock": "right",
+                        "size": {
+                          "w": 0,
+                          "h": 164
+                        }
+                      },
+                      "continuousAxis": {
+                        "visible": false,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 0
+                        }
+                      },
+                      "timeAxis": {
+                        "visible": false,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 0
+                        }
+                      },
+                      "miniChart": {
+                        "visible": false,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 0
+                        }
+                      },
+                      "refLineLabels": {
+                        "visible": false,
+                        "dock": "right",
+                        "size": {
+                          "w": 0,
+                          "h": 164
+                        }
+                      },
+                      "scrollArea": {
+                        "visible": false,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 0
+                        }
+                      },
+                      "refLines": {
+                        "visible": true,
+                        "dock": "center",
+                        "size": {
+                          "w": 438,
+                          "h": 164
+                        }
+                      },
+                      "dataArea": {
+                        "visible": true,
+                        "dock": "center",
+                        "size": {
+                          "w": 438,
+                          "h": 164
+                        }
+                      },
+                      "measureAxis": {
+                        "visible": false,
+                        "dock": "left",
+                        "size": {
+                          "w": 0,
+                          "h": 164
+                        }
+                      },
+                      "dimensionAxis": {
+                        "visible": true,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 22
+                        }
+                      },
+                      "dimensionAxisTitle": {
+                        "visible": false,
+                        "dock": "bottom",
+                        "size": {
+                          "w": 438,
+                          "h": 0
+                        }
+                      },
+                      "measureAxisTitle": {
+                        "visible": false,
+                        "dock": "left",
+                        "size": {
+                          "w": 0,
+                          "h": 164
+                        }
+                      }
+                    },
+                    "v": 0.96
+                  },
+                  "parent": {
+                    "h": 601,
+                    "w": 1366
+                  }
+                },
+                "visualizationType": "barchart",
+                "sourceObjectId": "mjBJqMz",
+                "sheetId": "9eb9e302-08d2-48ac-8af0-47f251406be3",
+                "timestamp": 1534167890747,
+                "isClone": false,
+                "supportExport": true
+              },
+              "qBookmark": {
+                "qStateData": [
+                  {
+                    "qStateName": "$",
+                    "qFieldItems": [
+                      {
+                        "qDef": {
+                          "qName": "=Dual('W'&Num(Week(Data),00),Num(Week(Data),00))",
+                          "qType": "PRESENT"
+                        },
+                        "qSelectInfo": {
+                          "qRangeLo": "NaN",
+                          "qRangeHi": "NaN",
+                          "qNumberFormat": {
+                            "qType": "U",
+                            "qnDec": 10,
+                            "qUseThou": 0
+                          },
+                          "qRangeInfo": [],
+                          "qContinuousRangeInfo": []
+                        },
+                        "qValues": [
+                          {
+                            "qIsNumeric": true,
+                            "qNumber": 23
+                          }
+                        ],
+                        "qExcludedValues": []
+                      }
+                    ]
+                  }
+                ],
+                "qUtcModifyTime": 43325.4478125,
+                "qVariableItems": [],
+                "qPatches": []
+              },
+              "qClassicBookmark": {
+                "qUtcModifyTime": 0,
+                "qUtcRecallTime": 0,
+                "qRecallCount": 0,
+                "qFieldItems": [],
+                "qVariableItems": [],
+                "qObjects": [],
+                "qGroups": [],
+                "qShow": {
+                  "qAlways": true,
+                  "qExpression": {}
+                },
+                "qApplyInputFieldValues": true,
+                "qInputFieldItems": [],
+                "qObjectsLayout": [],
+                "qIncludeSelectionState": true,
+                "qAlternateStateData": []
+              }
+            }
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "MhPqbZ",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": false,
+              "position": {
+                "top": "14.80872%",
+                "left": "62.50000%",
+                "width": "25.00000%",
+                "height": "44.43840%",
+                "z-index": 5,
+                "right": "auto"
+              },
+              "visualization": "text",
+              "visualizationType": "paragraph",
+              "style": {
+                "color": "#6E6E6E",
+                "text": "O valor jdfjdkfjkdljfkdljfkld"
+              }
+            },
+            "qChildren": []
+          },
+          {
+            "qProperty": {
+              "qInfo": {
+                "qId": "rmmfPbK",
+                "qType": "slideitem"
+              },
+              "qMetaDef": {},
+              "qEmbeddedSnapshotDef": {},
+              "title": "",
+              "sheetId": "",
+              "ratio": true,
+              "position": {
+                "top": "74.07407%",
+                "left": "72.91667%",
+                "width": "13.26414%",
+                "height": "14.81177%",
+                "z-index": 6,
+                "right": "auto"
+              },
+              "srcPath": {
+                "qStaticContentUrlDef": {
+                  "qUrl": "/appcontent/a830cbde-f6f8-4273-90b1-9c8c0e4bfc26/presentation-7.png"
+                }
+              },
+              "visualization": "image"
+            },
+            "qChildren": []
+          }
+        ]
+      }
+    ]
+  }
+]

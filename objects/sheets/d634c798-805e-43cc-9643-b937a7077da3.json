@@ -1,0 +1,2078 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "d634c798-805e-43cc-9643-b937a7077da3",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Análise Geográfica - GeoAnalytics",
+      "description": ""
+    },
+    "rank": 3,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/a830cbde-f6f8-4273-90b1-9c8c0e4bfc26/CIAB 2018/map.png"
+      }
+    },
+    "columns": 24,
+    "rows": 12,
+    "cells": [
+      {
+        "name": "fRsxfJp",
+        "type": "ideviomap",
+        "col": 7,
+        "row": 0,
+        "colspan": 13,
+        "rowspan": 11
+      },
+      {
+        "name": "vJBjhDT",
+        "type": "idevioheatmaplayer",
+        "col": 20,
+        "row": 2,
+        "colspan": 4,
+        "rowspan": 2
+      },
+      {
+        "name": "PPLQ",
+        "type": "idevioarealayer",
+        "col": 20,
+        "row": 0,
+        "colspan": 4,
+        "rowspan": 2
+      },
+      {
+        "name": "bWYeQYn",
+        "type": "filterpane",
+        "col": 0,
+        "row": 0,
+        "colspan": 7,
+        "rowspan": 12
+      },
+      {
+        "name": "CpyHC",
+        "type": "ideviobubblelayer",
+        "col": 20,
+        "row": 6,
+        "colspan": 4,
+        "rowspan": 2
+      },
+      {
+        "name": "Yjnsjv",
+        "type": "text-image",
+        "col": 20,
+        "row": 8,
+        "colspan": 4,
+        "rowspan": 4
+      },
+      {
+        "name": "HPC",
+        "type": "idevioarealayer",
+        "col": 20,
+        "row": 4,
+        "colspan": 4,
+        "rowspan": 2
+      },
+      {
+        "name": "RBUDcG",
+        "type": "idevioanimator",
+        "col": 7,
+        "row": 11,
+        "colspan": 13,
+        "rowspan": 1
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    }
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "fRsxfJp",
+          "qType": "ideviomap"
+        },
+        "qMetaDef": {},
+        "geoserver": "",
+        "mapId": 1528311923,
+        "mapOptions": {
+          "baseMap": "plain",
+          "debug": {
+            "infoLayer": false
+          },
+          "gl": false,
+          "center": [
+            30,
+            0
+          ],
+          "zoomLevel": 2,
+          "highlight": "rgba(200,50,100,0.5)",
+          "tools": []
+        },
+        "selectVisibleGrid": false,
+        "showLabels": false,
+        "zoomToSelection": true,
+        "viewCenter": 0,
+        "viewResolution": 0,
+        "showTitles": false,
+        "title": "GeoAnalytics Map",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "panToolEnabled": true,
+        "zoomToolEnabled": true,
+        "zoomResolutionLimit": {
+          "range": [
+            1739,
+            9515
+          ]
+        },
+        "zoomInResolutionLimit": 1.2,
+        "zoomOutResolutionLimit": 80000,
+        "selectType": "lasso",
+        "showScaleBar": true,
+        "useImperialUnitsScaleBar": false,
+        "showLayerList": false,
+        "showZoomButtons": false,
+        "showErrorList": true,
+        "logLevel": 3,
+        "visualization": "ideviomap",
+        "server": "https://maps.qlikcloud.com",
+        "version": "0.1",
+        "debug": true,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-map",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Map",
+          "description": "A GeoAnalytics Map for Qlik Sense.",
+          "template": "ideviomap",
+          "isThirdParty": true,
+          "preview": "mapicon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/ideviomap/mapicon-preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "vJBjhDT",
+          "qType": "idevioheatmaplayer"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=[Nome Loja]"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "NqwP",
+                "othersLabel": "Others"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "(Longitude_Latitude)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "HuZxv",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            },
+            {
+              "qLibraryId": "QFDjpbA",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "mtdsm",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 6,
+              "qHeight": 1000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "mapid": "1528311923",
+        "maxObjects": 20000,
+        "visible": false,
+        "selectable": true,
+        "resolutionLimit": {
+          "range": [
+            0,
+            10000
+          ]
+        },
+        "inResolutionLimit": {
+          "value": 0
+        },
+        "outResolutionLimit": {
+          "value": 160000
+        },
+        "restrictDrillDownLevel": "0-16",
+        "restrictDrillDownLevelSlider": [
+          0,
+          16
+        ],
+        "includeInAutoZoom": true,
+        "usingSoftPatch": false,
+        "draworder": {
+          "auto": true,
+          "category": "idevioheatmaplayer",
+          "adjustment": 0
+        },
+        "location": {
+          "source": "measure",
+          "service": "i:///pointgeom/default",
+          "viaServer": false,
+          "serviceType": "SERVICE",
+          "keyAttribute": "",
+          "forceFileReload": false,
+          "advancedLocation": false,
+          "country": "BR",
+          "type": "",
+          "suffix": ",BR",
+          "remap": "",
+          "gml": {
+            "geoName": "the_geom",
+            "reverse": false
+          }
+        },
+        "showTitles": true,
+        "title": "Volume por Loja",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "legend": {
+          "sizes": {
+            "auto": true,
+            "showSizes": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "colors": {
+            "auto": true,
+            "showColors": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "showIconTitle": true,
+          "showIcon": true,
+          "showUrl": true,
+          "customTitle": ""
+        },
+        "color": {
+          "alpha": 0.85,
+          "auto": true,
+          "colors": [],
+          "distribution": [],
+          "mode": "primary",
+          "measureScheme": "sg",
+          "dimensionScheme": "12"
+        },
+        "radius": 20,
+        "radiusUnit": "pixels",
+        "autoScale": true,
+        "commonWeight": 1,
+        "visualization": "idevioheatmaplayer",
+        "legendValues": {
+          "title": ""
+        },
+        "version": "1.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-heatmaplayer",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Heatmap Layer",
+          "description": "A heatmap layer for GeoAnalytics.",
+          "template": "idevioheatmaplayer",
+          "isThirdParty": true,
+          "preview": "heatmaplayericon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/idevioheatmaplayer/heatmaplayericon-preview.png"
+        },
+        "infoBubble": {
+          "visible": true,
+          "formatCustom": true,
+          "formatNumbers": true,
+          "formatNumbersAuto": true,
+          "formatNumberList": ""
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "PPLQ",
+          "qType": "idevioarealayer"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "BRASIL.Name-Estado"
+                ],
+                "qFieldLabels": [
+                  "Estado"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pEdNXmH",
+                "othersLabel": "Others"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qLibraryId": "QFDjpbA",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "id": "colorByAlternative",
+                  "matchMeasure": 1,
+                  "colorMapRef": "QFDjpbA"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "[BRASIL.Area]",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "JJmBtdY",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:9010"
+            },
+            {
+              "qLibraryId": "QFDjpbA",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "LhXjhmP",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:9011"
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 6,
+              "qHeight": 1000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "mapid": "1528311923",
+        "maxObjects": 20000,
+        "visible": true,
+        "selectable": true,
+        "resolutionLimit": {
+          "range": [
+            0,
+            10000
+          ]
+        },
+        "inResolutionLimit": {
+          "value": 0
+        },
+        "outResolutionLimit": {
+          "value": 160000
+        },
+        "restrictDrillDownLevel": "0-16",
+        "restrictDrillDownLevelSlider": [
+          0,
+          16
+        ],
+        "includeInAutoZoom": true,
+        "usingSoftPatch": false,
+        "draworder": {
+          "auto": true,
+          "category": "idevioarealayer",
+          "adjustment": 0
+        },
+        "location": {
+          "source": "auto",
+          "service": "i:///areageom/default",
+          "viaServer": false,
+          "serviceType": "SERVICE",
+          "keyAttribute": "",
+          "forceFileReload": false,
+          "advancedLocation": true,
+          "country": "BR",
+          "type": "",
+          "suffix": ",BR",
+          "remap": "",
+          "gml": {
+            "geoName": "the_geom",
+            "reverse": false
+          }
+        },
+        "showTitles": true,
+        "title": "Volume por Estado",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "legend": {
+          "sizes": {
+            "auto": true,
+            "showSizes": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "colors": {
+            "auto": true,
+            "showColors": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "showIconTitle": true,
+          "showIcon": true,
+          "showUrl": true,
+          "customTitle": "",
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "color": {
+          "auto": false,
+          "mode": "byMeasure",
+          "useBaseColors": "off",
+          "paletteColor": 7,
+          "useDimColVal": true,
+          "persistent": false,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "wtxeqt",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "alpha": 1,
+          "outline": "#aaaaaa",
+          "byMeasureDef": {
+            "label": "QFDjpbA",
+            "key": "QFDjpbA",
+            "type": "libraryItem",
+            "activeMeasureIndex": 1
+          },
+          "altLabel": "QFDjpbA"
+        },
+        "label": {
+          "visible": false,
+          "slider": 10000,
+          "outres": 160000
+        },
+        "infoBubble": {
+          "visible": true,
+          "formatCustom": true,
+          "formatNumbers": true,
+          "formatNumbersAuto": false,
+          "formatNumberList": "2"
+        },
+        "visualization": "idevioarealayer",
+        "version": "1.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-arealayer",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Area Layer",
+          "description": "An area layer for GeoAnalytics.",
+          "template": "idevioarealayer",
+          "isThirdParty": true,
+          "preview": "arealayericon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/idevioarealayer/arealayericon-preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "bWYeQYn",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "title": "",
+        "subtitle": "",
+        "footnote": ""
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c149e1e5-cee7-4750-9179-c4af19cda0b8",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Área Comercial"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pugpYu"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Área Comercial",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "a7aa1120-4e51-4bbd-9bae-619f74a03eca",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Bandeira Loja"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "EuYYhNT"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Bandeira Loja",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c5bc6636-ad8a-449a-a27b-901be135c257",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Região"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "mQMfVN"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Região",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c4461256-f2df-41dc-8708-0f569b7f2470",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Segmento"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "hmcf"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Segmento",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        },
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "1ee82a7e-7ab5-424a-bcac-2352f1096360",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Subsegmento"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "bWPtkS"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Subsegmento",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "CpyHC",
+          "qType": "ideviobubblelayer"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Nome Loja"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "nuev",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qLibraryId": "QFDjpbA",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "id": "colorByAlternative",
+                  "matchMeasure": -1,
+                  "colorMapRef": "QFDjpbA"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "(Longitude_Latitude)",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "mmFse",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qExpression": "[Nome Setor Loja] & '<br>' &\r\n[Cidade] & '<br>' &\ntext([Nome Loja]) & '<br>' &\n'Valor Financiado : ' & sum([Valor Principal IOF])",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "type": "infoBubbleExpression"
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:19170"
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 6,
+              "qHeight": 1000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "mapid": "1528311923",
+        "maxObjects": 20000,
+        "visible": true,
+        "selectable": true,
+        "resolutionLimit": {
+          "range": [
+            0,
+            10000
+          ]
+        },
+        "inResolutionLimit": {
+          "value": 0
+        },
+        "outResolutionLimit": {
+          "value": 160000
+        },
+        "restrictDrillDownLevel": "0-16",
+        "restrictDrillDownLevelSlider": [
+          0,
+          16
+        ],
+        "includeInAutoZoom": true,
+        "usingSoftPatch": false,
+        "draworder": {
+          "auto": true,
+          "category": "ideviobubblelayer",
+          "adjustment": 0
+        },
+        "location": {
+          "source": "auto",
+          "service": "i:///pointgeom/default",
+          "viaServer": false,
+          "serviceType": "SERVICE",
+          "keyAttribute": "",
+          "forceFileReload": false,
+          "advancedLocation": false,
+          "country": "",
+          "type": "",
+          "suffix": "",
+          "remap": "",
+          "gml": {
+            "geoName": "the_geom",
+            "reverse": false
+          }
+        },
+        "showTitles": true,
+        "title": "Lojas",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "legend": {
+          "sizes": {
+            "auto": true,
+            "showSizes": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "colors": {
+            "auto": true,
+            "showColors": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "showIconTitle": true,
+          "showIcon": true,
+          "showUrl": true,
+          "customTitle": "",
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "geometry": {
+          "shape": "hexagons"
+        },
+        "barwidth": 10,
+        "bars": {
+          "minHeight": 0,
+          "maxHeight": 20
+        },
+        "size": {
+          "range": [
+            0,
+            10
+          ]
+        },
+        "Radius": {
+          "min": {
+            "value": 0
+          },
+          "max": {
+            "value": 10
+          },
+          "minValue": {
+            "manual": true,
+            "value": 0
+          },
+          "maxValue": {
+            "manual": true,
+            "value": 0
+          }
+        },
+        "color": {
+          "auto": false,
+          "mode": "byMeasure",
+          "useBaseColors": "off",
+          "paletteColor": 7,
+          "useDimColVal": true,
+          "persistent": false,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "rixzl",
+          "reverseScheme": true,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "alpha": 0.8,
+          "outline": "#aaaaaa",
+          "byMeasureDef": {
+            "label": "Valor Financiado",
+            "key": "QFDjpbA",
+            "type": "libraryItem"
+          },
+          "altLabel": "Valor Financiado"
+        },
+        "label": {
+          "visible": false,
+          "slider": 10000,
+          "outres": 160000,
+          "position": "TOP"
+        },
+        "infoBubble": {
+          "visible": true,
+          "formatCustom": false,
+          "formatNumbers": true,
+          "formatNumbersAuto": true,
+          "formatNumberList": "",
+          "expression": "[Nome Setor Loja] & '<br>' &\r\n[Cidade] & '<br>' &\ntext([Nome Loja]) & '<br>' &\n'Valor Financiado : ' & sum([Valor Principal IOF])"
+        },
+        "visualization": "ideviobubblelayer",
+        "legendValues": {
+          "min": 1,
+          "max": 10,
+          "maxradius": 1,
+          "minradius": 10,
+          "title": ""
+        },
+        "version": "1.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-bubblelayer",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Bubble Layer",
+          "description": "A bubble layer for GeoAnalytics.",
+          "template": "ideviobubblelayer",
+          "isThirdParty": true,
+          "preview": "bubblelayericon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/ideviobubblelayer/bubblelayericon-preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "Yjnsjv",
+          "qType": "text-image"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "responsive": "all",
+        "markdown": "Você pode usar os filtros à esquerda para selecionar seus dados e clicar acima para habilitar/desabilitar as camadas.\nVocê pode usar também o animator ao lado para ver a evolução\n^[\n](inherit)",
+        "images": [],
+        "background": {
+          "isUsed": false,
+          "size": "auto",
+          "position": "topLeft",
+          "url": {}
+        },
+        "visualization": "text-image"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "HPC",
+          "qType": "idevioarealayer"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "BRASIL.Name-Estado"
+                ],
+                "qFieldLabels": [
+                  "Estado"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "pEdNXmH",
+                "othersLabel": "Others"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [
+                {
+                  "qLibraryId": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1",
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "id": "colorByAlternative",
+                  "matchMeasure": 1,
+                  "colorMapRef": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1"
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "[BRASIL.Area]",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "JJmBtdY",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                },
+                {
+                  "qNumFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  }
+                }
+              ],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:9010"
+            },
+            {
+              "qLibraryId": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1",
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qNumFormat": {
+                  "qType": "U",
+                  "qnDec": 10,
+                  "qUseThou": 0
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "NkUsduy",
+                "numFormatFromTemplate": true
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              },
+              "$$hashKey": "object:66025"
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            1,
+            2
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 6,
+              "qHeight": 1000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "mapid": "1528311923",
+        "maxObjects": 20000,
+        "visible": true,
+        "selectable": true,
+        "resolutionLimit": {
+          "range": [
+            0,
+            10000
+          ]
+        },
+        "inResolutionLimit": {
+          "value": 0
+        },
+        "outResolutionLimit": {
+          "value": 160000
+        },
+        "restrictDrillDownLevel": "0-16",
+        "restrictDrillDownLevelSlider": [
+          0,
+          16
+        ],
+        "includeInAutoZoom": true,
+        "usingSoftPatch": false,
+        "draworder": {
+          "auto": true,
+          "category": "idevioarealayer",
+          "adjustment": 0
+        },
+        "location": {
+          "source": "auto",
+          "service": "i:///areageom/default",
+          "viaServer": false,
+          "serviceType": "SERVICE",
+          "keyAttribute": "",
+          "forceFileReload": false,
+          "advancedLocation": true,
+          "country": "BR",
+          "type": "",
+          "suffix": ",BR",
+          "remap": "",
+          "gml": {
+            "geoName": "the_geom",
+            "reverse": false
+          }
+        },
+        "showTitles": true,
+        "title": "Taxa por Estado",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "legend": {
+          "sizes": {
+            "auto": true,
+            "showSizes": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "colors": {
+            "auto": true,
+            "showColors": true,
+            "showMinMax": true,
+            "showTitle": true
+          },
+          "showIconTitle": true,
+          "showIcon": true,
+          "showUrl": true,
+          "customTitle": "",
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "color": {
+          "auto": false,
+          "mode": "byMeasure",
+          "useBaseColors": "off",
+          "paletteColor": 7,
+          "useDimColVal": true,
+          "persistent": false,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "wfxj2a",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "alpha": 1,
+          "outline": "#aaaaaa",
+          "byMeasureDef": {
+            "label": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1",
+            "key": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1",
+            "type": "libraryItem",
+            "activeMeasureIndex": 1
+          },
+          "altLabel": "a5a4c396-f0be-4e1d-bc4e-8ba59210a4f1"
+        },
+        "label": {
+          "visible": false,
+          "slider": 10000,
+          "outres": 160000
+        },
+        "infoBubble": {
+          "visible": true,
+          "formatCustom": true,
+          "formatNumbers": true,
+          "formatNumbersAuto": true,
+          "formatNumberList": ""
+        },
+        "visualization": "idevioarealayer",
+        "version": "1.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-arealayer",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Area Layer",
+          "description": "An area layer for GeoAnalytics.",
+          "template": "idevioarealayer",
+          "isThirdParty": true,
+          "preview": "arealayericon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/idevioarealayer/arealayericon-preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "RBUDcG",
+          "qType": "idevioanimator"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=Dual('W'&Num(Week(Data),00),Num(Week(Data),00))"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "PJWWzV",
+                "othersLabel": "Others"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Others"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            }
+          ],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [
+            0
+          ],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 6,
+              "qHeight": 1000
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "animator": {
+          "intervalTime": 2000,
+          "steps": 0,
+          "aggr": false,
+          "loop": false,
+          "showLabel": true,
+          "showDimValue": true
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "idevioanimator",
+        "version": "1.0",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "map icon-idevio-animator",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "GeoAnalytics Animator",
+          "description": "An animator for GeoAnalytics.",
+          "template": "idevioanimator",
+          "isThirdParty": true,
+          "preview": "animatoricon-preview.png",
+          "type": "visualization",
+          "version": "1.0",
+          "author": "Qlik",
+          "previewIconURL": "../extensions/idevioanimator/animatoricon-preview.png"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}
