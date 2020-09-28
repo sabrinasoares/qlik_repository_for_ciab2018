@@ -1,0 +1,2 @@
+///$tab Section
+tag Field [cod_Filial], [cod_loja], [cod_Obj], [cod_Operador], [cod_Produto], [cod_setor_loja], [cod_TabelaFin] with $hidden;
